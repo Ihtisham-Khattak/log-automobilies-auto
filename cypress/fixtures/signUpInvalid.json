@@ -1,0 +1,11 @@
+{
+  "validFullName": "Javier",
+  "validPhoneNumber": "123456789",
+  "validPassword": "Asdf1234",
+
+  "invalidEmail": "notanemail@",
+  "invalidPhoneNumber": "abcXYZ!@#",
+  "weakPassword": "1234",
+  "alreadyRegisteredEmail": "dacv696+05@gmail.com",
+  "emptyValue": ""
+}

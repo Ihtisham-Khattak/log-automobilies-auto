@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+
+# Cypress generated artifacts
+cypress/screenshots/
+cypress/videos/
+cypress/downloads/
+
+# Allure reporting
+allure-results/
+allure-report/
+
+# Logs & temp output files
+*.txt
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
