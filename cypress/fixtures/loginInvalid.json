@@ -1,0 +1,8 @@
+{
+  "invalidEmail": "nonexistent@example.com",
+  "invalidPassword": "WrongPassword123",
+  "invalidEmailFormat": "user@@domain.com",
+  "longEmail": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa@example.com",
+  "sqlInjection": "' OR '1'='1",
+  "emptyValue": ""
+}

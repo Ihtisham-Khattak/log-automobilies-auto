@@ -1,4 +1,5 @@
 class SignupPage {
+  
   get fullname() {
     return cy.xpath("//input[@name='fullName']");
   }
@@ -44,7 +45,7 @@ class SignupPage {
   }
 
   visit() {
-    cy.visit(Cypress.config("baseUrl"));
+    cy.visit(`${Cypress.config("baseUrl")}/become-member`);
   }
 
   fillFullName(value) {
