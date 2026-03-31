@@ -17,3 +17,7 @@ allure-report/
 # OS files
 .DS_Store
 Thumbs.db
+
+# Coverage and report artifacts
+.nyc_output/
+coverage/

@@ -9,7 +9,7 @@ describe("Login Page", () => {
 
   const login = new LoginPage();
   it("Login with valid credentials", function () {
-    login.visit();
+    login.visit('/member');
     login.loginEmail(this.data.email);
     login.loginPassword(this.data.password);
     login.loginButton()

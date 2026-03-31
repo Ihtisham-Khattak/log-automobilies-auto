@@ -9,7 +9,7 @@ describe("Signup", () => {
 
   it("Signup with valid credentials", function () {
     const signUp = new SignupPage();
-    signUp.visit();
+    signUp.visit("/become-member");
     signUp.fillFullName(this.data.fullName);
     const email = `dacv696+${Cypress._.random(10, 999)}${Date.now()}@gmail.com`;
     signUp.fillEmail(email);

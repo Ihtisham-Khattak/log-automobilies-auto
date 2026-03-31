@@ -17,3 +17,4 @@
 import './commands'
 import "allure-cypress";
 import "cypress-xpath";
+import '@cypress/code-coverage/support'
