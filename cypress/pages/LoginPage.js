@@ -10,11 +10,10 @@ class LoginPage {
   get login() {
     return cy.xpath("//button[@type='submit']");
   }
-
+  
   visit() {
     cy.visit(Cypress.config("baseUrl"));
   }
-
   loginEmail(email) {
     this.email.clear().type(email);
   }

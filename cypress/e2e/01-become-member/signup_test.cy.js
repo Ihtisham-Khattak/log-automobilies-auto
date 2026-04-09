@@ -11,7 +11,7 @@ describe("Signup", () => {
     const signUp = new SignupPage();
     signUp.visit("/become-member");
     signUp.fillFullName(this.data.fullName);
-    const email = `dacv696+${Cypress._.random(10, 999)}${Date.now()}@gmail.com`;
+    const email = `dacv696+${Cypress._.random(0, 5)}@gmail.com`;
     signUp.fillEmail(email);
     signUp.fillPhoneNumber(this.data.phoneNumber);
     signUp.fillPassword(this.data.password);

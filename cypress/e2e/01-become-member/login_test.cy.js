@@ -9,9 +9,10 @@ describe("Login Page", () => {
 
   const login = new LoginPage();
   it("Login with valid credentials", function () {
-    login.visit('/member');
+    login.visit();
+    cy.get('a[href="/en/login"]').first().click();
     login.loginEmail(this.data.email);
     login.loginPassword(this.data.password);
-    login.loginButton()
+    login.loginButton();
   });
 });

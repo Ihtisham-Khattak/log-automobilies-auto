@@ -12,6 +12,6 @@ module.exports = defineConfig({
       
       return config;
     },
-    baseUrl: "https://log-automobile.netlify.app",
+    baseUrl: "https://log-automobile.netlify.app/en",
   },
 });
